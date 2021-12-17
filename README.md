@@ -13,7 +13,7 @@ Edit `custom-error-page/http-statuses.conf` so the `root` values point to the co
 In your main nginx config file, include `custom-error-page/http-statuses.conf` outside the server block, like this:
 
 ```
-include /etc/nginx/conf.d/custom-error-page/http-status.conf;
+include /etc/nginx/conf.d/custom-error-page/http-statuses.conf;
 # ^ Add this line
 
 server {
