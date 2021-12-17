@@ -26,6 +26,8 @@ server {
 }
 ```
 
+Restart Nginx and you're done.
+
 In your nginx config file, include `custom-error-page/error-page.conf` inside your server block, like this:
 
 ```
