@@ -2,6 +2,8 @@
 
 What if your application could look nice even when it's crashing? This is a custom error page for Nginx.
 
+![](./nice-nginx-error-page-screenshot.png)
+
 ## Installation
 
 Copy `templates/custom-error-page` folder in your web root folder, for example `/usr/share/nginx/html`.
