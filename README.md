@@ -1,6 +1,6 @@
 # Nice Nginx Error Page
 
-This is a nicer error page for Nginx.
+What if your application could look nice even when it's crashing? This is a custom error page for Nginx.
 
 ## Installation
 
