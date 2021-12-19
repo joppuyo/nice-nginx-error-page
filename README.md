@@ -4,6 +4,12 @@ What if your application could look nice even when it's crashing? Try this custo
 
 ![](./nice-nginx-error-page-screenshot.png)
 
+## Preview
+
+* [401 Unauthorized](https://joppuyo.github.io/nice-nginx-error-page/401.html)
+* [404 Not Found](https://joppuyo.github.io/nice-nginx-error-page/404.html)
+* [500 Internal Server Error](https://joppuyo.github.io/nice-nginx-error-page/500.html)
+
 ## Installation
 
 Copy `templates/custom-error-page` folder in your web root folder, for example `/usr/share/nginx/html`.
@@ -12,7 +18,7 @@ Copy `config/custom-error-page` folder into your nginx config directory, for exa
 
 Edit `custom-error-page/http-statuses.conf` so the `root` values point to the correct folder on your server.
 
-In your main nginx config file, include `custom-error-page/http-statuses.conf` outside the server block, like this:
+In your main nginx config file, include `custom-error-page/http-statuses.conf` outside the server block (that is, inside the http block), like this:
 
 ```
 include /etc/nginx/conf.d/custom-error-page/http-statuses.conf;
