@@ -64,4 +64,4 @@ I would like to thank the article [One NGINX error page to rule them all](https:
 
 ## License
 
-CC0-1.0
+MIT since the error page uses a MIT-licensed minireset.css library. All other files are dual-licensed under MIT and CC0-1.0 license.
