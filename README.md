@@ -1,3 +1,6 @@
+<!-- SPDX-License-Identifier: MIT OR CC0-1.0 -->
+<!-- SPDX-FileCopyrightText 2021 Johannes Siipola -->
+
 # Nice Nginx Error Page
 
 What if your application could look nice even when it's crashing? Try this custom error page for Nginx.
@@ -70,4 +73,4 @@ I would like to thank the article [One NGINX error page to rule them all](https:
 
 ## License
 
-MIT since the error page uses a MIT-licensed minireset.css library. All other files are dual-licensed under MIT and CC0-1.0 license.
+MIT since the error page uses a MIT-licensed minireset.css library, and the Inter font which is licensed under the SIL Open Font License. All other files are dual-licensed under MIT and CC0-1.0 license.

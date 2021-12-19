@@ -1,0 +1,10 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+
+Files: templates/custom-error-page/inter-roman-var.woff2 docs/inter-roman-var.woff2
+Copyright: Copyright (c) 2016-2020 The Inter Project Authors
+License: OFL-1.1
+Comment: "Inter" is trademark of Rasmus Andersson.
+
+Files: nice-nginx-error-page-screenshot.png
+Copyright: 2021 Johannes Siipola
+License: CC0-1.0
