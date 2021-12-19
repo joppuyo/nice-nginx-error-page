@@ -23,7 +23,7 @@ Copy `config/custom-error-page` folder into your nginx config directory, for exa
 
 Edit `custom-error-page/http-statuses.conf` so the `root` values point to the correct folder on your server.
 
-In your main nginx config file, include `custom-error-page/http-statuses.conf` outside the server block (that is, inside the http block), like this:
+In your main nginx config file, include `custom-error-page/error-page.conf` outside the server block (that is, inside the http block), like this:
 
 ```
 include /etc/nginx/conf.d/custom-error-page/http-statuses.conf;
