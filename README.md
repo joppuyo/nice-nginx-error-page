@@ -1,6 +1,6 @@
 # Nice Nginx Error Page
 
-What if your application could look nice even when it's crashing? This is a custom error page for Nginx.
+What if your application could look nice even when it's crashing? Try this custom error page for Nginx.
 
 ![](./nice-nginx-error-page-screenshot.png)
 
