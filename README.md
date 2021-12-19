@@ -37,8 +37,6 @@ server {
 }
 ```
 
-Restart Nginx and you're done.
-
 In your nginx config file, include `custom-error-page/error-page.conf` inside your server block, like this:
 
 ```
@@ -55,6 +53,8 @@ server {
   # Your server configs here
 }
 ```
+
+Restart Nginx and you're done.
 
 Feel free to modify the error template to your liking!
 
