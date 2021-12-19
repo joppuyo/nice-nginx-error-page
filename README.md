@@ -17,13 +17,13 @@ What if your application could look nice even when it's crashing? Try this custo
 
 ## Installation
 
-Copy `templates/custom-error-page` folder in your web root folder, for example `/usr/share/nginx/html`.
+Copy `templates/custom-error-page` folder in your web root folder, for example `/usr/share/nginx/html/custom-error-page`.
 
-Copy `config/custom-error-page` folder into your nginx config directory, for example `/etc/nginx/conf.d/`.
+Copy `config/custom-error-page` folder into your nginx config directory, for example `/etc/nginx/conf.d/custom-error-page`.
 
-Edit `custom-error-page/http-statuses.conf` so the `root` values point to the correct folder on your server.
+Edit `custom-error-page/error-page.conf` so the `root` values point to the correct folder on your server.
 
-In your main nginx config file, include `custom-error-page/error-page.conf` outside the server block (that is, inside the http block), like this:
+In your main nginx config file, include `custom-error-page/http-statuses.conf` inside the http block, outside the server block, like this:
 
 ```
 include /etc/nginx/conf.d/custom-error-page/http-statuses.conf;
