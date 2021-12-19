@@ -71,7 +71,7 @@ You can accomplish this by removing `404` from the list of statuses in `error_pa
 
 ## Thanks
 
-I would like to thank the article [One NGINX error page to rule them all](https://blog.adriaan.io/one-nginx-error-page-to-rule-them-all.html) for inspiration. Using Server Side Includes drastically cuts down the number of required templates.
+I would like to thank the article [One NGINX error page to rule them all](https://blog.adriaan.io/one-nginx-error-page-to-rule-them-all.html) for serving as inspiration. Using Server Side Includes drastically cuts down the number of required templates.
 
 ## License
 
