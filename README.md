@@ -3,6 +3,8 @@
 
 # Nice Nginx Error Page
 
+[![REUSE status](https://api.reuse.software/badge/github.com/joppuyo/nice-nginx-error-page)](https://api.reuse.software/info/github.com/joppuyo/nice-nginx-error-page)
+
 What if your application could look nice even when it's crashing? Try this custom error page for Nginx.
 
 ![](./nice-nginx-error-page-screenshot.png)
