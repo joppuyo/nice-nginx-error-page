@@ -75,4 +75,7 @@ I would like to thank the article [One NGINX error page to rule them all](https:
 
 ## License
 
-MIT since the error page uses a MIT-licensed minireset.css library, and the Inter font which is licensed under the SIL Open Font License. All other files are dual-licensed under MIT and CC0-1.0 license.
+
+MIT.
+
+For detailed license information, see the individual file headers and [`.reuse/dep5`](.reuse/dep5).
