@@ -65,7 +65,7 @@ Feel free to modify the error template to your liking!
 By default, Nginx will use the error pages from upstream if they are available. Nginx will only show it's own error pages if it can't connect to the upstream server. For example in case of timeout or if the upstream is down. You can override this behavior by setting `fastcgi_intercept_errors on;` or
 `proxy_intercept_errors on;`.
 
-### I'm using intercept_errors but I would like to still show the custom 404 from my application server.
+### I'm using xxx_intercept_errors but I would like to still show the custom 404 from my application server.
 
 You can accomplish this by removing `404` from the list of statuses in `error_page` directive, in the file `custom-error-page/error-page.conf`. TODO: check if this actually works.
 
